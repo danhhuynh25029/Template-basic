@@ -1,0 +1,375 @@
+img{
+	height: 550px;
+}
+/* style nav */
+.navbar-brand img{
+	width: 150px;
+	height: 100px;
+}
+/* end  */
+/* style slider */
+.carousel-item{
+	height: 500px;
+}
+.carousel-item:nth-child(1){
+	background-image: url("img/1358206.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.carousel-item:nth-child(2){
+	background-image: url("img/camera_hand_photographer_129674_3840x2400.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.carousel-item:nth-child(3){
+	background-image: url("img/camera_hand_snow_130454_3840x2400.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.carousel-indicators li{
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+}
+.slider1{
+	/* border: 1px solid black; */
+	width: 450px;
+	top: 150px;;
+
+}
+.btn{
+	color: white !important;
+	border: 1px solid white !important;
+}
+.slider1 h3{
+/* border: 1px solid black; */
+font-size: 30px !important;
+text-align: start;
+margin-bottom: 20px;
+}
+.slider1 p{
+	text-align: start;
+	margin-bottom: 20px;
+}
+.slider1 button{
+	display: block;
+	left: 0px;
+}
+.btn:hover{
+	transform: scaleX(1.1) scaleY(1.1);
+	transition: all 0.4s;
+	background-color: #999  !important; 
+}
+.slider2{
+	height: 300px;
+}
+.slider2 h3{
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.slider2 p{
+	margin-bottom: 20px;
+}
+.slider3{
+	/* border: 1px solid black; */
+	width: 450px;
+	top: 150px;;
+
+}
+.slider3 h3{
+	/* border: 1px solid black; */
+	font-size: 30px !important;
+	text-align: start;
+	margin-bottom: 20px;
+}
+.slider3 p{
+		text-align: start;
+		margin-bottom: 20px;
+}
+.slider3 button{
+		display: block;
+		left: 0px;
+}
+	/* end */
+	/* section */
+.container-fluid .one{
+	background-color: #ecf0f1 !important;
+	height: 150px;
+}	
+
+.col-3 .btn{
+	margin-top: 55px;
+	color: black !important;
+	border: 1px solid black !important;
+}
+.col-3 .btn:hover{
+background-color: white !important;
+}
+.col-9 h4{
+	margin-top: 55px;
+}
+.col-9 p{
+	height: 30px;
+	color :#999;
+}
+.col-3 {
+	text-align: center;
+}
+.col-3 img{
+	width: 150px;
+	height: 100px;
+	margin: 30px 0px;
+}
+.col-3 h4{
+	margin: 30px 0px;
+}
+.col-3 p{
+	margin-bottom: 50px;
+}
+.three {
+	background-color: #ecf0f1;
+	text-align: center;
+	/* height: 150px; */
+}
+.three .col-12 h2{
+	font-size:30px;
+   margin-top: 60px;
+   margin-bottom: 20px;
+}
+.three .col-12 p{
+	font-size: 18px;
+	color: #999;
+	margin-bottom: 50px;
+}
+.four {
+	background-color: #ecf0f1;
+}
+.four .col-4{
+	text-align: center;
+}
+.four .col-4{
+	margin-top: 20px;
+}
+.four .col-4 h5{
+	margin-top: 20px;
+}
+.four .col-4 p{
+ color: #999;
+ font-size: 15px;
+ margin-bottom: 70px;
+}
+.four .col-4 img{
+	width: 300px;
+	height: 200px;
+}
+.five .col-12{
+	height: 350px;
+	background-image: url("img/b8f114fbde0b0d7c221011bc02112705.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.9;
+}
+.five .col-12 p{
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 20px;
+	opacity: 1;
+}
+.six {
+	height: 400px;
+}
+.six .col-6 h3{
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.six .col-6 ul{
+	margin-top: 20px ;
+	list-style: none;
+}
+.six .col-6 li{
+	margin-top:20px;
+	font-size: 13px !important;
+}
+.six .col-6 img{
+	display: block;
+	width: 500px;
+	height: 320px;
+	margin: 50px auto;
+}
+.seven .col-12{
+	text-align: center;
+	background-color: #ecf0f1;
+	height: 200px;
+}
+.seven .col-12 h4{
+	margin-top: 100px;
+}
+.seven .col-12 p{
+	color: #999;
+}
+.eight{
+
+	background-color: #ecf0f1;
+}
+.eight .col-3{
+	text-align: center;
+}
+.eight .col-3 p {
+	font-size: 13px;
+	color: #999;
+	margin-bottom: 50px;
+}
+.eight .col-3 img{
+	width: 200px;
+	height: 170px;
+}
+.nine .col-8 h4{
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+/* style skill bar */
+.nine .col-8 .progress .progress-bar{
+	background-color: #555;
+	text-align: start;
+	padding-left: 20px;
+}
+.nine .col-8 .progress{
+	margin-bottom: 20px;
+	height: 40px;
+	border-radius: 0px 0px;
+	/* end */
+}
+.nine .col-4 h4{
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+.nine .col-4 input{
+	border: 1px solid black;
+	border-radius: 3px 3px;
+	height: 40px;
+	padding: 10px;
+	font-size: 15px;
+}
+.nine .col-4 button{
+	background-color:none;
+	border: none;
+	border:1px solid black;
+	margin-left: 10px;
+	background-color: white;
+	border-radius:3px 3px;
+	height:40px;
+
+}
+.nine .col-4 p{
+	margin-top: 40px;
+	font-size: 15px;
+	color: #999;
+}
+.nine{
+	height: 350px;
+}
+.ten {
+	height: 500px;
+	background-image: url("img/city-street-wallpaper_102642890.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.eleven,.tell{
+	background-color: #222;
+	border-bottom: 0.5px solid #999 ;
+}
+.eleven .col-9 p{
+	color: #999;
+	margin-top: 10px;
+}
+.eleven .col-9 p i{
+	padding-right: 8px;
+}
+.eleven .col-3 ul{
+	list-style: none;
+	margin-top: 10px;
+}
+.eleven .col-3 ul li{
+	display: inline-block;
+}
+.eleven .col-3 ul li i{
+	color: #999;
+}
+.eleven .col-3 ul li{
+	width: 30px;
+}
+.tell{
+	background-color: #222;
+}
+.tell .col-2,.col-4{
+	text-align: center;
+}
+.tell .col-2 h4{
+	color: #ecf0f1;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.tell .col-2,.col-4 ul{
+	list-style: none;
+}
+.tell .col-2 ul li a{
+   text-decoration: none;
+   color: #999	;
+   font-size: 15px;
+}
+.tell .col-2 ul li{
+	text-align: start;
+	margin-bottom: 20px;
+}
+.tell .col-2 ul li a i{
+   margin-right: 10px;
+}
+.tell .col-4 h4{
+	color: #ecf0f1;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+.tell .col-4 ul li{
+	color: #999;
+	text-align: start;
+	font-size: 15px;
+}
+.tell .col-4 ul li i{
+	opacity: 0.5;
+	font-size: 13px;
+}
+.tell .col-4 ul .b{
+	margin-bottom: 30px;
+}
+.tell .col-4 ul li a{
+	color: green;
+}
+.threeteen {
+	background-color: #222;
+}
+.threeteen p{
+	color: #999;
+	font-size: 15px;
+	margin: 20px 0px;
+}
+.threeteen .col-5{
+	text-align: end;
+}
+.threeteen .col-5 a{
+	color: #999;
+	display: block;
+	margin: 20px 0px;
+	text-align: end;
+	text-decoration: none	;
+}
+html{
+	scroll-behavior: smooth;
+}
+/* end */
